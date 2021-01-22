@@ -1,0 +1,22 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "contact": {}
+    },
+    "paths": {
+        "/beer": {
+            "get": {
+                "description": "Get Beer",
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "Retrieves users from mongodb",
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            }
+        }
+    }
+}

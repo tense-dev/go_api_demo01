@@ -1,0 +1,13 @@
+info:
+  contact: {}
+paths:
+  /beer:
+    get:
+      description: Get Beer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: ""
+      summary: Retrieves users from mongodb
+swagger: "2.0"
